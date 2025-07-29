@@ -9,69 +9,140 @@
       margin: 0;
       font-family: 'Arial', sans-serif;
       background-color: #ffcc00;
-      color: #000;
-      text-align: center;
+      color: #111;
     }
     header {
-      padding: 20px;
-      background-color: #ffcc00;
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
     }
     header img {
-      width: 180px;
+      width: 140px;
       height: auto;
+      margin-bottom: 10px;
     }
     h1 {
-      font-size: 3rem;
-      margin: 0.5rem 0;
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
     }
     section {
-      margin: 2rem auto;
-      max-width: 700px;
-      padding: 1rem;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cta {
+      text-align: center;
+      background-color: #fff3a3;
+      padding: 40px 20px;
+      border-radius: 12px;
+      margin-bottom: 40px;
     }
     .btn {
-      display: inline-block;
+      background-color: #ff6600;
+      color: white;
       padding: 15px 30px;
-      background: #000;
-      color: #fff;
-      font-size: 1.2rem;
-      border-radius: 10px;
-      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
       margin-top: 20px;
     }
+    .tokenomics, .roadmap {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .tokenomics ul, .roadmap ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .tokenomics li, .roadmap li {
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .connect {
+      background-color: #ffcc00;
+      text-align: center;
+      padding: 30px;
+    }
+    .connect a {
+      margin: 0 10px;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+    }
     footer {
-      padding: 1rem;
-      font-size: 0.9rem;
-      background: #000;
+      background-color: #111;
       color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://honkulon.github.io/honkulon/honkulon-logo.png" alt="HONKULON Logo">
+    <img src="Monstrous Goose Logo Design_ HONKULON.png" alt="HONKULON Logo">
+    <h1>HONKULON</h1>
+    <p>The Duckening Begins</p>
   </header>
-  <main>
-    <h1>Welcome to HONKULON</h1>
-    <section>
-      <p>The ultimate meme coin for those who dare to HONK.</p>
-      <p><strong>Tokenomics:</strong><br />
-        - Total Supply: 1,000,000,000 HKLN<br />
-        - Decimals: 10<br />
-        - No team allocation<br />
-        - 100% transparency, full degen
-      </p>
-      <a href="#" class="btn">Join the Presale (Coming Soon)</a>
-    </section>
-    <section>
-      <p><strong>Connect with Us:</strong></p>
-      <p>
-        <a href="#">Telegram</a> | <a href="#">Twitter/X</a>
-      </p>
-    </section>
-  </main>
+
+  <nav>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#presale">Presale</a>
+    <a href="#connect">Connect</a>
+  </nav>
+
+  <section class="cta" id="presale">
+    <h2>🚀 Presale Launching Soon</h2>
+    <p>1 Billion tokens. No team allocation. No rug. Just honk.</p>
+    <button class="btn" onclick="alert('Presale Link Coming Soon')">Join the Flight</button>
+  </section>
+
+  <section class="tokenomics" id="tokenomics">
+    <h2>📊 Tokenomics</h2>
+    <ul>
+      <li>Total Supply: 1,000,000,000 HKLN</li>
+      <li>Decimals: 10</li>
+      <li>Presale Allocation: 100%</li>
+      <li>LP Locked: 12 Months</li>
+      <li>No Team Tokens</li>
+    </ul>
+  </section>
+
+  <section class="roadmap" id="roadmap">
+    <h2>🛣️ Roadmap</h2>
+    <ul>
+      <li>✅ Meme Creation & Website Launch</li>
+      <li>🚀 Presale Goes Live</li>
+      <li>📈 Listing on DEX</li>
+      <li>📢 Meme Raids & Influencer Push</li>
+      <li>🌕 Community Takeover & Duck Domination</li>
+    </ul>
+  </section>
+
+  <section class="connect" id="connect">
+    <h2>🔗 Join the Pond</h2>
+    <p><a href="#">Telegram</a> | <a href="#">Twitter/X</a></p>
+  </section>
+
   <footer>
-    &copy; 2025 HONKULON. All honks reserved.
+    HONKULON © 2025 — Fully Unhinged. All Honks Reserved. 🦆
   </footer>
 </body>
 </html>
