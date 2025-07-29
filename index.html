@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HONKULON | Meme Coin Pre Sale | No Rugs | No Team Allocation | LP LOCKED</title>
+  <title>HONKULON</title>
   <style>
     body {
       margin: 0;
@@ -12,44 +12,35 @@
       color: #111;
     }
     header {
-      background-color: #111;
-      color: #fff;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    header img {
-      width: 300px;
-      height: auto;
-      margin-bottom: 10px;
-      img-align: left;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    nav {
-      background-color: #333;
+      background: url("Monstrous Goose Logo Design_ HONKULON.png") no-repeat center center;
+      background-size: cover;
+      height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      gap: 30px;
-      padding: 0px 0;
-    }
-    nav a {
+      align-items: center;
       color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .cta {
+      text-shadow: 2px 2px 4px #000;
       text-align: center;
-      background-color: #fff3a3;
-      padding: 40px 20px;
-      border-radius: 12px;
-      margin-bottom: 40px;
+      position: relative;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+    header h1, header p, header .btn {
+      z-index: 1;
+      position: relative;
+    }
+    header h1 {
+      font-size: 4rem;
+      margin: 0.5rem;
+    }
+    header p {
+      font-size: 1.5rem;
     }
     .btn {
       background-color: #ff6600;
@@ -57,9 +48,26 @@
       padding: 15px 30px;
       border: none;
       border-radius: 8px;
-      font-size: 1rem;
+      font-size: 1.1rem;
       cursor: pointer;
       margin-top: 20px;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
     }
     .tokenomics, .roadmap {
       background-color: #fff;
@@ -97,23 +105,16 @@
 </head>
 <body>
   <header>
-    <img src="https://honkulon.github.io/honkulon/honkulon-logo.png" alt="HONKULON Logo">
-  
+    <h1>HONKULON</h1>
     <p>The Duckening Begins</p>
+    <button class="btn" onclick="alert('Presale Link Coming Soon')">🚀 Join the Flight</button>
   </header>
 
   <nav>
-    <a href="#tokenomics">Tokenomics | </a> 
-    <a href="#roadmap">Roadmap | </a>
-    <a href="#presale">Presale | </a>
-    <a href="#connect">Connect | </a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#connect">Connect</a>
   </nav>
-
-  <section class="cta" id="presale">
-    <h2>🚀 Presale Launching Soon</h2>
-    <p>1 Billion tokens. No team allocation. No rug. Just honk.</p>
-    <button class="btn" onclick="alert('Presale Link Coming Soon')">Join the Flight</button>
-  </section>
 
   <section class="tokenomics" id="tokenomics">
     <h2>📊 Tokenomics</h2>
