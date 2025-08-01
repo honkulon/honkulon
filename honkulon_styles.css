@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial Black', sans-serif;
+    background-color: #f5c242;
+    color: #2b1e00;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9b233;
+}
+
+.logo {
+    height: 80px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    background-color: #2b1e00;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btn.outline {
+    background-color: transparent;
+    border: 2px solid #2b1e00;
+    color: #2b1e00;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 2em;
+    background: #fcd85e;
+}
+
+.tokenomics, .roadmap, .how-to-buy {
+    padding: 40px 20px;
+    background: #fff3c1;
+    margin-bottom: 20px;
+}
+
+.tokenomics img, .footer img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.phases {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.phase {
+    background-color: #2b1e00;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+}
+
+.how-to-buy ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.how-to-buy li {
+    margin-bottom: 12px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #f9b233;
+}
